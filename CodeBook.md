@@ -90,4 +90,27 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 4. Appropriately labels the data set with descriptive activity names.
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-
+## run_analysis.R Work Through Steps
+0. Reading the files to be used
+  * Load activity labels
+  * Load features(for column names)
+  * Read datasets files (Train & Test)
+1. Merges the training and the test sets to create one data set.
+  * loaded all necessary dataset
+  * merge/bind the data together
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+  * get the activity
+  * extract only the measurements
+3. Uses descriptive activity names to name the activities in the data set.
+  * 
+4. Appropriately labels the data set with descriptive activity names.
+  * 
+5. Creates a 2nd, independent tidy data set with the average of each variable for each activity and each subject.
+  * add the mean function and use the wrtie.dat to write the file
+  
+## To Run The Script
+ * create a directory in your Document or Desktop and call it anything like data
+ * Download the run_analysis.R and place it in the directory you just created
+ * Download the zip file using the data source link (see The ReadMe.md or above)
+ * unzip the file and place the "UCI HAR Dataset" folder in your data directory or the name your gave
+ * You are set to use/run the run_analysis.R
