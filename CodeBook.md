@@ -109,8 +109,9 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
   * add the mean function and use the wrtie.dat to write the file
   
 ## To Run The Script
- * create a directory in your Document or Desktop and call it anything like data
+ * Create a directory in your Document or Desktop and call it anything like data
  * Download the run_analysis.R and place it in the directory you just created
  * Download the zip file using the data source link (see The ReadMe.md or above)
- * unzip the file and place the "UCI HAR Dataset" folder in your data directory or the name your gave
+ * unzip the file and place the "UCI HAR Dataset" folder in your data directory you created earlier
+ * Open R Studio and set your directory to the one you've created earlier.
  * You are set to use/run the run_analysis.R
